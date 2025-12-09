@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    <br />
+    <form>
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstName" required />
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastName" required />
+      <br />
+      <br />
+      <label for="date">Date of Birth:</label>
+      <input type="date" id="date" name="dateOfBirth" />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" />
+      <br />
+      <br />
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <label for="email">Email Address:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter email address"
+        required
+      />
+      <br />
+      <br />
+      <label for="position">Positions Available:</label>
+      <input type="radio" id="Junior" name="position" value="Junior" />
+      <label for="Junior">Junior Developer</label>
+      <input type="radio" id="Mid-level" name="position" value="Mid-level" />
+      <label for="Mid-level">Mid-level Developer</label>
+      <input type="radio" id="Senior" name="position" value="Senior" />
+      <label for="Senior">Senior Developer</label>
+      <br />
+      <br />
+      <label for="language">Programming Languages:</label>
+      <input type="checkbox" id="Java" name="language" value="Java" />
+      <label for="Java">Java</label>
+      <input
+        type="checkbox"
+        id="JavaScript"
+        name="language"
+        value="JavaScript"
+      />
+      <label for="JavaScript">JavaScript</label>
+      <input type="checkbox" id="Python" name="language" value="Python" />
+      <label for="Python">Python</label>
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <label for="confirm">Confirm Password:</label>
+      <input type="password" id="confirm" name="confirm" required />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
