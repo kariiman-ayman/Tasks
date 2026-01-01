@@ -6,26 +6,38 @@
   color: #252525;
 }
 
-.hero {
+body {
+  width: 1313px;
   margin: auto;
-  text-align: center;
-  width: 610px;
-  margin-top: 64px;
+}
+
+.table-content {
+  width: 100%;
+  margin-top: 122px;
+  margin-bottom: 88px;
+}
+
+.left {
+  width: 526px;
+}
+
+.right,
+.left {
+  vertical-align: top;
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 88px;
   font-weight: 800;
   line-height: 80px;
-  margin-bottom: 24px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 400;
   line-height: 100%;
-  margin-bottom: 24px;
   opacity: 0.8;
+  margin-bottom: 16px;
 }
 
 button {
@@ -38,18 +50,4 @@ button {
   line-height: 18px;
   border: none;
   cursor: pointer;
-}
-
-.gallery {
-  margin-top: calc(483px - 301px);
-  display: inline-block;
-  text-align: center;
-}
-
-img:not(:nth-child(4n)) {
-  margin-right: 16px;
-}
-
-img:nth-child(-n + 4) {
-  margin-bottom: 16px;
 }
