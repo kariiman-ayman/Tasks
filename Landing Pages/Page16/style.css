@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/Background.jpg),
+    linear-gradient(172.29deg, #09212c 15.72%, #043e49 68.5%);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 62px;
+}
+
+.hero {
+  width: 50%;
+  background-image: linear-gradient(
+    124.42deg,
+    rgba(0, 0, 0, 0.36) 5.12%,
+    rgba(0, 0, 0, 0.0675) 102.99%
+  );
+  border-radius: 24px;
+  padding: 40px 56px;
+  /* position: absolute; */
+  /* top: 13px;
+  left: 64px;
+  margin: 40px; */
+  backdrop-filter: blur(8px);
+  margin-bottom: 20px;
+}
+
+.colors {
+  font-size: 0;
+  margin-bottom: 24px;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.color-1 {
+  background-color: #ffff67;
+}
+
+.color-2 {
+  background-color: #3fffff;
+}
+
+.color-3 {
+  background-color: #52dc4b;
+}
+
+.color-4 {
+  background-color: #ff6e3d;
+}
+
+.color-5 {
+  background-color: #3d45ff;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 72px;
+  margin-bottom: 20px;
+}
+
+.hero-content {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #63e1e1;
+  padding: 24px 48px;
+  border: none;
+  border-radius: 36px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+  color: black;
+  box-shadow: 0px 0px 20px 0px #63e1e140;
+  cursor: pointer;
+}
+
+.movies {
+  /* width: 80%;
+  left: 64px;
+  top: 500px; */
+  /* position: absolute; */
+  display: inline-block;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border: 1px solid white;
+  backdrop-filter: blur(8px);
+  border-radius: 32px;
+  padding: 24px 56px;
+  /* margin-top: 20px;
+  margin-left: 32px; */
+}
+
+.movie {
+  display: inline-block;
+  width: 20%;
+}
+
+.movie:not(:last-child) {
+  margin-right: 60px;
+}
+
+.icon {
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 8px;
+}
+
+.movie-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
