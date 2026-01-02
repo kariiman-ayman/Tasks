@@ -39,6 +39,10 @@ button {
   cursor: pointer;
 }
 
+.container {
+  border-collapse: collapse;
+}
+
 .text {
   margin-left: 300px;
 }
@@ -46,14 +50,20 @@ button {
 .img-wrap::before {
   content: "";
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 475px;
+  height: 475px;
+  top: 10%;
   background-color: #e5b94b;
   backdrop-filter: blur(24px);
   border-radius: 50%;
 }
 
+.img-wrap {
+  position: relative;
+}
+
 img {
   position: relative;
+  width: 443px;
   vertical-align: bottom;
 }
