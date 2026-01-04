@@ -15,8 +15,8 @@ body {
 
 h1 {
   font-weight: 700;
-  font-size: 88px;
-  line-height: 104px;
+  font-size: 78px;
+  line-height: 94px;
   margin-bottom: 40px;
 }
 
@@ -44,6 +44,7 @@ button {
 }
 
 .text {
+  width: 550px;
   margin-left: 300px;
 }
 
@@ -56,6 +57,7 @@ button {
   background-color: #e5b94b;
   backdrop-filter: blur(24px);
   border-radius: 50%;
+  z-index: 1;
 }
 
 .img-wrap {
@@ -66,4 +68,31 @@ img {
   position: relative;
   width: 443px;
   vertical-align: bottom;
+  z-index: 3;
+}
+
+.dots-box {
+  --dot-size: 3px;
+  --gap: 18px;
+  width: calc(10 * var(--gap));
+  height: calc(10 * var(--gap));
+  background-image: radial-gradient(
+    circle,
+    #fff var(--dot-size),
+    transparent var(--dot-size)
+  );
+  background-size: var(--gap) var(--gap);
+  background-position: 0 0;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 2;
+}
+
+.dots-box:first-child {
+  top: 30px;
+}
+
+.dots-box:last-child {
+  bottom: 40px;
+  right: -50px;
 }
