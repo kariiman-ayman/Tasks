@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  color: #252525;
+}
+
+.container {
+  margin: 64px 64px 128px 64px;
+  position: relative;
+}
+
+.left {
+  width: 608px;
+  padding-bottom: 325px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  margin-bottom: 24px;
+}
+
+.p-1 {
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+
+button {
+  background-color: #252525;
+  color: #ffffff;
+  padding: 24px 48px;
+  border-radius: 36px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.shapes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.wave-img {
+  position: absolute;
+  top: 27px;
+  left: 498px;
+}
+
+.spiral-img {
+  position: absolute;
+  top: 610px;
+  left: 78px;
+}
+
+.dawn1 {
+  position: absolute;
+  width: 248px;
+  height: 248px;
+  top: 324px;
+  left: 604px;
+  z-index: 1;
+}
+
+.dawn2 {
+  position: absolute;
+  width: 257px;
+  height: 257px;
+  top: 477px;
+  left: 1095px;
+}
+
+.images {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.image {
+  width: 316px;
+  height: 436px;
+  border-radius: 24px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.right-img {
+  top: 0;
+  right: 0;
+}
+
+.mid-img {
+  top: 218px;
+  left: 730px;
+}
+
+.left-img {
+  top: 460px;
+  left: 383px;
+}
+
+.man {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+}
+
+.p-2 {
+  width: 516px;
+  font-weight: 400;
+  font-size: 22px;
+  opacity: 0.8;
+  float: right;
+}
+
+.bottom {
+  width: 668px;
+  padding: 16px 24px;
+  margin-bottom: 48px;
+  float: right;
+}
