@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #2c1001;
+}
+
+.container {
+  margin: 47px 64px 64px 64px;
+  white-space: nowrap;
+}
+
+.top-wrapper {
+  width: 568px;
+  padding-top: 250px;
+  margin-bottom: 80px;
+}
+
+.left-wrapper {
+  display: inline-block;
+  white-space: normal;
+}
+
+.img-wrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 64px;
+  line-height: 84px;
+  margin-bottom: 32px;
+}
+
+.p-1 {
+  font-weight: 300;
+  font-style: Light;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+button {
+  background-color: #ffde81;
+  color: #2c1001;
+  padding: 30px 40px;
+  border-radius: 36px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.analytics {
+  background-color: #49342f;
+  border-radius: 24px;
+  width: 650px;
+  padding: 24px 96px;
+}
+
+.analytics-box {
+  display: inline-block;
+  width: 23%;
+}
+
+.number {
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.line {
+  margin-bottom: 16px;
+  width: 38px;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.p-2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.analytics-box:not(:first-child) {
+  margin-left: 64px;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.yellow-bg {
+  width: 477px;
+  height: 572px;
+  margin-top: 125px;
+  margin-left: 85px;
+  background-color: #ffdd81;
+  z-index: 1;
+}
+
+.brown-bg {
+  width: 473px;
+  height: 553px;
+  margin-top: -495px;
+  margin-left: 200px;
+  background-color: #2a211c;
+  rotate: 25deg;
+  position: absolute;
+  z-index: -1;
+}
+
+.star1 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  z-index: 2;
+}
+
+.portal1 {
+  position: absolute;
+  top: 125px;
+  left: 410px;
+  z-index: 2;
+  opacity: 0.7;
+}
+
+.portal2 {
+  position: absolute;
+  top: 290px;
+  left: 580px;
+  z-index: 2;
+  opacity: 0.7;
+  rotate: 25deg;
+}
+
+.heart {
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  z-index: 2;
+}
+
+.mobile {
+  position: absolute;
+  top: 400px;
+  left: 40px;
+  z-index: 3;
+}
+
+.star2 {
+  position: absolute;
+  top: 740px;
+  left: 580px;
+}
