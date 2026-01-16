@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  color: #252525;
+}
+
+.container {
+  margin: 64px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 35px 0;
+}
+
+.table-1 {
+  margin-bottom: 64px;
+}
+
+.wave {
+  width: 355px;
+  height: 68px;
+  display: block;
+  margin: 0 auto;
+}
+
+.wave-left {
+  margin-bottom: 56px;
+}
+
+.wave-right {
+  margin-top: 56px;
+}
+
+.curved-text {
+  width: 173px;
+  height: 173px;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.p-1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  background-color: #252525;
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 36px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.center {
+  width: 484px;
+}
+
+.p-2 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.line {
+  background: #252525;
+}
+
+.line-1 {
+  width: 162px;
+  height: 6px;
+}
+
+.line-2 {
+  width: 98px;
+  height: 6px;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7 {
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.cell {
+  position: relative;
+}
+
+.img-1 {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  width: 180px;
+  height: 250px;
+}
+
+.img-2 {
+  width: 257px;
+  height: 273px;
+}
+
+.img-3 {
+  width: 257px;
+  height: 252px;
+}
+
+.img-4 {
+  width: 291px;
+  height: 582px;
+}
+
+.img-5 {
+  width: 257px;
+  height: 273px;
+}
+
+.img-6 {
+  width: 257px;
+  height: 252px;
+}
+
+.img-7 {
+  position: absolute;
+  top: 115px;
+  left: 0;
+  width: 180px;
+  height: 250px;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-bottom {
+  vertical-align: bottom;
+}
+
+.p-bottom {
+    width: 180px;
+    position: relative;
+}
+
+.p-bottom-alignment {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
