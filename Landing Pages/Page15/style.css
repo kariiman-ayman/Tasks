@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #252525;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  white-space: nowrap;
+}
+
+.column {
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+}
+
+h1 {
+  font-family: Times;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  margin-bottom: 32px;
+}
+
+.p-1 {
+  font-family: Times;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+button {
+  background-color: #457d61;
+  color: #ffffff;
+  padding: 24px 32px;
+  border-radius: 36px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.left-container {
+  width: 356px;
+  padding-top: 88px;
+  margin-left: 64px;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.star {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+
+.star-left {
+  top: 163px;
+  left: 332px;
+}
+
+.left-images {
+  margin-top: 25px;
+  width: 373px;
+  height: 364px;
+  position: relative;
+}
+
+.mini-img {
+  width: 176px;
+  height: 298px;
+  border-radius: 119.36px;
+}
+
+.mini-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.mini-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.middle-container {
+  position: relative;
+}
+
+.curved-text {
+  position: absolute;
+  top: -25px;
+  left: 60px;
+  width: 100%;
+}
+
+text {
+  font-family: Times;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 3px;
+  fill: #0d261b;
+}
+
+.main-img {
+  width: 374px;
+  height: 640px;
+  border-radius: 272px;
+  margin-left: 113px;
+  margin-top: 180px;
+}
+
+.right-container {
+  width: 280px;
+  height: 472px;
+  margin-left: 113px;
+  position: relative;
+}
+
+.star-right {
+  top: 423px;
+  left: 44px;
+}
+
+.right-images {
+  margin-top: 66px;
+  margin-bottom: 41px;
+  width: 373px;
+  height: 421px;
+  position: relative;
+}
+
+.second-p {
+  margin-bottom: 40px;
+}
+
+.second-h1 {
+  margin-bottom: 0;
+}
+
+.right-content {
+  width: 280px;
+  margin-left: 44px;
+}
+
+.mini-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mini-4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
