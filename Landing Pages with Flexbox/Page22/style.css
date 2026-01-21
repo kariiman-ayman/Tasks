@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+}
+
+body {
+  background-color: #010625;
+  width: 100%;
+  min-height: 100vh;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 64px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.floatingImages {
+  position: absolute;
+  right: 64px;
+  top: 0;
+  display: flex;
+  gap: 32px;
+  z-index: -1;
+}
+
+.floatingImages__img {
+  max-width: 348px;
+  border-radius: 0 0 174px 174px;
+  aspect-ratio: 348 / 473;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 542px;
+  margin-top: 70px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.content__title {
+  max-width: 409px;
+  font-weight: 800;
+  font-size: 88px;
+}
+
+.content__description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.content__button {
+  all: unset;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #010625;
+  border-radius: 16px;
+  padding: 24px 48px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 18px;
+}
+
+.left__img {
+  width: 100%;
+  max-width: 676px;
+  aspect-ratio: 676 / 304;
+  border-radius: 32px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.textList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 456px;
+  margin-right: 42px;
+}
+
+.textList__line {
+  width: 96px;
+  height: 8px;
+  background-color: #ffffff;
+}
+
+.textList__item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.textList__item__title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.textList__item__description {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.bottom__img {
+  flex: 1;
+  min-width: 300px;
+  border-radius: 16px;
+  aspect-ratio: 412 / 260;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 1300px) {
+  .floatingImages {
+    display: none;
+  }
+}
