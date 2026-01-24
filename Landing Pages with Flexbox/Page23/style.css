@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(assets/background.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 64px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 170px;
+}
+
+.top__title {
+  max-width: 684px;
+  font-weight: 900;
+  font-size: 88px;
+  line-height: 100%;
+}
+
+.top__description {
+  max-width: 568px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.top__button {
+  all: unset;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #100e19;
+  border-radius: 16px;
+  padding: 24px 48px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 18px;
+}
+
+.bottom {
+  margin-top: 104px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.bottom__box {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0.125) 68.53%
+  );
+  backdrop-filter: blur(32px);
+  padding: 44px 54px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.bottom__box__title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.bottom__box__description {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
