@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #252525;
+}
+
+.hero {
+  margin: auto;
+  text-align: center;
+  width: 610px;
+  margin-top: 64px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 80px;
+  margin-bottom: 24px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+button {
+  background-color: #252525;
+  color: #ffffff;
+  padding: 18px 48px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.gallery {
+  margin-top: calc(483px - 301px);
+  display: inline-block;
+  text-align: center;
+}
+
+img:not(:nth-child(4n)) {
+  margin-right: 16px;
+}
+
+img:nth-child(-n + 4) {
+  margin-bottom: 16px;
+}
