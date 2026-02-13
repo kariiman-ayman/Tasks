@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <input type="text" id="display" readonly />
+      <div class="buttons">
+        <input type="button" value="1" onclick="EnterNumber(this.value)" />
+        <input type="button" value="2" onclick="EnterNumber(this.value)" />
+        <input type="button" value="3" onclick="EnterNumber(this.value)" />
+        <input type="button" value="4" onclick="EnterNumber(this.value)" />
+        <input type="button" value="5" onclick="EnterNumber(this.value)" />
+        <input type="button" value="6" onclick="EnterNumber(this.value)" />
+        <input type="button" value="7" onclick="EnterNumber(this.value)" />
+        <input type="button" value="8" onclick="EnterNumber(this.value)" />
+        <input type="button" value="9" onclick="EnterNumber(this.value)" />
+        <input type="button" value="." onclick="EnterNumber(this.value)" />
+        <input type="button" value="0" onclick="EnterNumber(this.value)" />
+        <input
+          type="button"
+          value="C"
+          class="operator"
+          onclick="EnterClear()"
+        />
+        <input
+          type="button"
+          value="+"
+          class="operator"
+          onclick="EnterOperator(this.value)"
+        />
+        <input
+          type="button"
+          value="-"
+          class="operator"
+          onclick="EnterOperator(this.value)"
+        />
+        <input
+          type="button"
+          value="*"
+          class="operator"
+          onclick="EnterOperator(this.value)"
+        />
+        <input
+          type="button"
+          value="/"
+          class="operator"
+          onclick="EnterOperator(this.value)"
+        />
+        <input
+          type="button"
+          value="%"
+          class="operator"
+          onclick="EnterOperator(this.value)"
+        />
+        <input
+          type="button"
+          value="="
+          class="operator"
+          onclick="EnterEqual()"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
