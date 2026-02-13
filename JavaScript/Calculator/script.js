@@ -30,7 +30,7 @@ function EnterEqual() {
   else if (operator === "-") result = a - b;
   else if (operator === "*") result = a * b;
   else if (operator === "/") result = b !== 0 ? a / b : "Error";
-  else if (operator === "%") result = a % b;
+  else if (operator === "%") result = b !== 0 ? a % b : "Error";
 
   display.value = result;
 
